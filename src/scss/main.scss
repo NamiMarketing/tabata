@@ -1,0 +1,97 @@
+// Import partials
+@use 'variables' as *;
+@use 'reset';
+@use 'components';
+@use 'layout';
+
+// Global styles
+body {
+  background: var(--t06);
+  color: var(--t05);
+  font-size: 16px;
+}
+
+// Utility classes
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.text-center {
+  text-align: center;
+}
+
+// Responsive adjustments
+@media (max-width: $breakpoint-tablet) {
+  :root {
+    --container-padding: 40px;
+  }
+
+  .about,
+  .method,
+  .consultation {
+    grid-template-columns: 1fr;
+  }
+
+  .why-choose__grid {
+    grid-template-columns: 1fr;
+
+    &--offset {
+      margin-left: 0;
+    }
+  }
+
+  .results__gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  :root {
+    --container-padding: 20px;
+  }
+
+  .section-title--display {
+    font-size: 40px;
+  }
+
+  .section-title--xl {
+    font-size: 32px;
+  }
+
+  .section-title--lg {
+    font-size: 28px;
+  }
+}
+
+.only-mobile {
+  display: none !important;
+}
+.mobile-tablet{
+  display: none !important;
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+  .only-mobile {
+    display: block !important;
+  }
+
+  .mobile-tablet{
+    display: block !important;
+  }
+  .tablet-desktop{
+    display: none !important;
+  }
+  .only-desktop {
+    display: none !important;
+  }
+}
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .mobile-tablet{
+    display: block !important;
+  }
+  .only-desktop{
+    display: none !important;
+  }
+}

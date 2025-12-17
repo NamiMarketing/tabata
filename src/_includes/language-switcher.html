@@ -1,0 +1,33 @@
+<div class="language-switcher">
+  <button class="language-switcher__toggle" aria-expanded="false" aria-haspopup="true">
+    {{ lang | default: 'en' | upcase }}
+    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+  <div class="language-switcher__dropdown">
+    <a href="/en/" class="language-switcher__option {% if lang == 'en' %}language-switcher__option--active{% endif %}">EN</a>
+    <a href="/pt/" class="language-switcher__option {% if lang == 'pt' %}language-switcher__option--active{% endif %}">PT</a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggle = document.querySelector('.language-switcher__toggle');
+    const dropdown = document.querySelector('.language-switcher__dropdown');
+    
+    toggle.addEventListener('click', function() {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !expanded);
+      dropdown.classList.toggle('language-switcher__dropdown--open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.language-switcher')) {
+        toggle.setAttribute('aria-expanded', 'false');
+        dropdown.classList.remove('language-switcher__dropdown--open');
+      }
+    });
+  });
+</script>

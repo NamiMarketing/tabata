@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "method": "METHOD",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "tagline": "Live Your Health"
+  },
+  "about": {
+    "subtitle": "MEET TABATA",
+    "title": "Precision nutrition <br>for real <span class=\"highlight\">health</span><br>and top-level <br><span class=\"script\">performance</span>",
+    "text": "I'm Tábata Vitorino — a two-time Olympic athlete and health professional with over 21 years of firsthand experience in high-performance sports. My journey was shaped by training alongside some of the best coaches in the world, combining science, discipline, and elite practice. Today, I use this expertise to transform lives, delivering performance, health, and aesthetics with strategy, precision, and real results. If you're ready to evolve, you're in the right place.",
+    "cta": "GET IN TOUCH"
+  },
+  "whyChoose": {
+    "title": "WHY CHOOSE ME",
+    "subtitle": "You'll be guided by an Olympic athlete who combines science, practical experience, and personalized strategies to deliver real results in health, aesthetics, and performance.",
+    "cards": {
+      "support": "Continuous follow-up and real-time support",
+      "leanMass": "Modern strategies to maintain your lean mass",
+      "nutrition": "Smart nutrition planning",
+      "autonomy": "Educational approach to develop nutritional autonomy",
+      "sports": "nutrition + sports"
+    },
+    "cta": "GET IN TOUCH"
+  },
+  "method": {
+    "subtitle": "METHOD",
+    "steps": {
+      "strategy": "Strategy",
+      "consistency": "Consistency",
+      "results": "Results"
+    },
+    "list": {
+      "assessment": "Complete assessment",
+      "nutritionPlan": "Personalized Nutrition Plan",
+      "shoppingList": "Practical shopping list",
+      "supplement": "Supplement guidance",
+      "followUp": "Ongoing Follow-up",
+      "adjustments": "Monthly adjustments",
+      "training": "Training integration"
+    }
+  },
+  "cta": {
+    "title": "Start your evolution <span class=\"highlight\">today!</span>",
+    "button": "GET IN TOUCH"
+  },
+  "results": {
+    "title1": "results",
+    "title2": "Evolutions",
+    "title3": "Transformations",
+    "subtitle": "Real transformations built through strategy, consistency, and professional guidance. Here, you can see the impact of a method that combines science, discipline, and Olympic-level experience.",
+    "cta": "START TODAY"
+  },
+  "testimonials": {
+    "title": "Stories that Reflect",
+    "titleScript": "results",
+    "items": [
+      {
+        "name": "Susan Poneman",
+        "content": "As an Olympic athlete, Tabata brings a elite focus, unique insight, and tremendous inspiration to her work as a personal trainer and nutrition expert. Her energy and attention to detail are amazing. I always feel coached not only by a world-class athlete but by someone who truly cares about my success. Tabata is one-of-a-kind and I give her my highest recommendation!"
+      },
+      {
+        "name": "Jonatas Yasumoto",
+        "content": "Purpose and consistency are the foundation of Tábata's work. As both a patient and a student, I experienced this foundation through the results I achieved — more than 30 kg lost and at least 10 years regained in rejuvenation. Forever grateful!"
+      },
+      {
+        "name": "Fabiana Cristina",
+        "content": "Working with Tábata completely changed my relationship with my body, with food, and with myself. It wasn't just weight loss — it was a real transformation, both physical and mental. Today I feel strong, confident, and in control. This work changes lives."
+      },
+      {
+        "name": "Maria Rafaela",
+        "content": "Tábata doesn't just guide you — she walks alongside you. Her method goes far beyond diet and training. Through her work, I gained discipline, confidence, and results that finally make sense."
+      },
+      {
+        "name": "Maria Calle",
+        "content": "I had high cholesterol and type 2 diabetes. With the guidance of nutritionist Tábata, I was able to bring my lab results back to normal within just a few months. I learned how to improve my eating habits consciously, without giving up the pleasure of eating."
+      },
+      {
+        "name": "Romário Oliveira",
+        "content": "It wasn't just about eating better or exercising more — it was about changing behavior. With Tábata's guidance, I was able to control my binge eating, rebuild my self-esteem, and move my life forward, including earning a promotion at work."
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Ready to evolve? Schedule your consultation.",
+    "cta": "GET IN TOUCH"
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "address1": {
+      "name": "Wolf Gym Boca",
+      "street": "9183 Glades Rd, Boca Raton, FL 33434"
+    },
+    "address2": {
+      "name": "Quest Workspaces",
+      "street": "1200 N Federal Hwy Suite 300, Boca Raton, FL 33432"
+    },
+    "phone": "+1 (508) 364-6300"
+  }
+}

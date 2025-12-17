@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "INÍCIO",
+    "about": "SOBRE",
+    "method": "MÉTODO",
+    "contact": "CONTATO"
+  },
+  "hero": {
+    "tagline": "Viva Sua Saúde"
+  },
+  "about": {
+    "subtitle": "CONHEÇA TABATA",
+    "title": "Nutrição de precisão <br>para saúde <span class=\"highlight\">real</span><br>e performance <br><span class=\"script\">de alto nível</span>",
+    "text": "Eu sou Tábata Vitorino — atleta olímpica duas vezes e profissional de saúde com mais de 21 anos de experiência prática em esportes de alta performance. Minha jornada foi moldada treinando ao lado de alguns dos melhores treinadores do mundo, combinando ciência, disciplina e prática de elite. Hoje, uso essa expertise para transformar vidas, entregando performance, saúde e estética com estratégia, precisão e resultados reais. Se você está pronto para evoluir, você está no lugar certo.",
+    "cta": "ENTRE EM CONTATO"
+  },
+  "whyChoose": {
+    "title": "POR QUE ME ESCOLHER",
+    "subtitle": "Você será guiado por uma atleta olímpica que combina ciência, experiência prática e estratégias personalizadas para entregar resultados reais em saúde, estética e performance.",
+    "cards": {
+      "support": "Acompanhamento contínuo e suporte em tempo real",
+      "leanMass": "Estratégias modernas para manter sua massa magra",
+      "nutrition": "Planejamento nutricional inteligente",
+      "autonomy": "Abordagem educativa para desenvolver autonomia nutricional",
+      "sports": "nutrição + esportes"
+    },
+    "cta": "ENTRE EM CONTATO"
+  },
+  "method": {
+    "subtitle": "MÉTODO",
+    "steps": {
+      "strategy": "Estratégia",
+      "consistency": "Consistência",
+      "results": "Resultados"
+    },
+    "list": {
+      "assessment": "Avaliação completa",
+      "nutritionPlan": "Plano Nutricional Personalizado",
+      "shoppingList": "Lista de compras prática",
+      "supplement": "Orientação de suplementos",
+      "followUp": "Acompanhamento contínuo",
+      "adjustments": "Ajustes mensais",
+      "training": "Integração com treino"
+    }
+  },
+  "cta": {
+    "title": "Comece sua evolução <span class=\"highlight\">hoje!</span>",
+    "button": "ENTRE EM CONTATO"
+  },
+  "results": {
+    "title1": "resultados",
+    "title2": "Evoluções",
+    "title3": "Transformações",
+    "subtitle": "Transformações reais construídas através de estratégia, consistência e orientação profissional. Aqui, você pode ver o impacto de um método que combina ciência, disciplina e experiência de nível olímpico.",
+    "cta": "COMECE HOJE"
+  },
+  "testimonials": {
+    "title": "Histórias que Refletem",
+    "titleScript": "resultados",
+    "items": [
+      {
+        "name": "Susan Poneman",
+        "content": "Como atleta olímpica, Tabata traz um foco de elite, visão única e tremenda inspiração para seu trabalho como personal trainer e especialista em nutrição. Sua energia e atenção aos detalhes são incríveis. Sempre me sinto orientada não apenas por uma atleta de classe mundial, mas por alguém que realmente se importa com meu sucesso. Tabata é única e dou minha mais alta recomendação!"
+      },
+      {
+        "name": "Jonatas Yasumoto",
+        "content": "Propósito e constância essa é a base que a Tábata leva em seu trabalho! Como paciente e aluno, conheci a base através do resultado conquistado. Pilares que geraram uma eliminação de mais de 30kgs e pelo menos 10 anos de rejuvenescimento. Gratidão sempre!"
+      },
+      {
+        "name": "Fabiana Cristina",
+        "content": "Trabalhar com a Tábata mudou completamente a minha relação com o meu corpo, com a comida e comigo mesma. Não foi só emagrecimento foi transformação real, física e mental. Hoje eu me sinto forte, confiante e no controle. Esse trabalho muda vidas."
+      },
+      {
+        "name": "Maria Rafaela",
+        "content": "A Tábata não apenas orienta ela caminha junto. O método vai muito além de dieta e treino. Ganhei disciplina, confiança e resultados que finalmente fazem sentido."
+      },
+      {
+        "name": "Maria Calle",
+        "content": "Eu estava com colesterol alto e diabetes tipo 2. Com a orientação da Nutri Tábata, consegui normalizar meus exames em poucos meses. Melhorei minha alimentação de forma consciente, sem abrir mão do prazer de comer."
+      },
+      {
+        "name": "Romário Oliveira",
+        "content": "Não foi só sobre comer melhor ou treinar. Foi sobre mudar comportamento. Com a orientação da Tábata, controlei a compulsão alimentar, recuperei minha autoestima e minha vida começou a andar — inclusive com uma promoção no trabalho."
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Pronto para evoluir? Agende sua consulta.",
+    "cta": "ENTRE EM CONTATO"
+  },
+  "contact": {
+    "title": "ENTRE EM CONTATO",
+    "address1": {
+      "name": "Wolf Gym Boca",
+      "street": "9183 Glades Rd, Boca Raton, FL 33434"
+    },
+    "address2": {
+      "name": "Quest Workspaces",
+      "street": "1200 N Federal Hwy Suite 300, Boca Raton, FL 33432"
+    },
+    "phone": "+1 (508) 364-6300"
+  }
+}

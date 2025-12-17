@@ -1,0 +1,365 @@
+---
+layout: base.html
+title: Tabata Vitorino - Nutrição de Precisão para Saúde Real
+cssPath: "/css/main.css"
+lang: pt
+permalink: /pt/
+---
+{% assign t = i18n.pt %}
+
+<div class="home">
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <img src="/assets/images/t-logo-11.png" alt="Tabata Vitorino Logo">
+    </div>
+    <nav class="header__nav">
+      <div class="nav">
+        <a href="#home" class="nav__link">{{ t.nav.home }}</a>
+        <a href="#about" class="nav__link">{{ t.nav.about }}</a>
+        <a href="#method" class="nav__link">{{ t.nav.method }}</a>
+        <a href="#contact" class="nav__link">{{ t.nav.contact }}</a>
+      </div>
+    </nav>
+    {% include "language-switcher.html" %}
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img src="/assets/images/hero-bg.png" class="hero-bg" alt="Hero Background">
+    </div>
+    <div class="hero__mob">
+      <img src="/assets/images/hero-mob.png" class="hero-mob" alt="Hero Background">
+    </div>
+    <div class="hero__content">
+      <div class="hero__tagline">
+        <img src="/assets/images/live-your-health.png" alt="{{ t.hero.tagline }}">
+      </div>
+      <div class="hero__icon">
+        <img src="/assets/images/t-logo-08.png" alt="Icon">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about__image only-desktop">
+      <img src="/assets/images/about-image.jpg" alt="Tabata Vitorino">
+    </div>
+    <div class="about__content">
+      <p class="about__subtitle">{{ t.about.subtitle }}</p>
+      <h2 class="about__title">
+        {{ t.about.title }}
+      </h2>
+      <div class="about__image mobile-tablet">
+        <img src="/assets/images/about-image.jpg" alt="Tabata Vitorino">
+      </div>
+      <p class="about__text">
+        {{ t.about.text }}
+      </p>
+      <a href="#contact" class="btn">{{ t.about.cta }}</a>
+    </div>
+  </section>
+
+  <!-- Why Choose Me Section -->
+  <section class="why-choose">
+    <div class="why-choose__decoration">
+      <img src="/assets/images/t-padrao-01.png" alt="Decoration">
+    </div>
+
+    <h2 class="section-title section-title--lg why-choose__title">{{ t.whyChoose.title }}</h2>
+    <p class="why-choose__subtitle">
+      {{ t.whyChoose.subtitle }}
+    </p>
+
+    <div class="why-choose__grid">
+      <div class="card">
+        <div class="card__icon">
+          <img src="/assets/images/icon-phone.svg" alt="Phone Icon">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">{{ t.whyChoose.cards.support }}</h3>
+        </div>
+        <img class="card__image" src="/assets/images/card1.png" alt="Continuous Support">
+      </div>
+
+      <div class="card">
+        <div class="card__icon">
+          <img src="/assets/images/icon-muscle.svg" alt="Muscle Icon">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">{{ t.whyChoose.cards.leanMass }}</h3>
+        </div>
+        <img class="card__image" src="/assets/images/card2.png" alt="Lean Mass">
+      </div>
+
+      <div class="card">
+        <div class="card__icon">
+          <img src="/assets/images/icon-nutrition.svg" alt="Nutrition Icon">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">{{ t.whyChoose.cards.nutrition }}</h3>
+        </div>
+        <img class="card__image" src="/assets/images/card3.png" alt="Nutrition Planning">
+      </div>
+    </div>
+
+    <div class="why-choose__grid why-choose__grid--offset">
+      <div class="card">
+        <div class="card__icon">
+          <img src="/assets/images/icon-health.svg" alt="Health Icon">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">{{ t.whyChoose.cards.autonomy }}</h3>
+        </div>
+        <img class="card__image" src="/assets/images/card4.png" alt="Educational Approach">
+      </div>
+
+      <div class="card">
+        <div class="card__icon">
+          <img src="/assets/images/icon-sports.svg" alt="Sports Icon">
+        </div>
+        <div class="card__content">
+          <h3 class="card__title">{{ t.whyChoose.cards.sports }}</h3>
+        </div>
+        <img class="card__image" src="/assets/images/card5.png" alt="Nutrition and Sports">
+      </div>
+    </div>
+
+    <div class="why-choose__cta">
+      <a href="#contact" class="btn btn--light">{{ t.whyChoose.cta }}</a>
+    </div>
+  </section>
+
+  <!-- Method Section -->
+  <section class="method" id="method">
+    <div class="method__left">
+      <p class="method__subtitle">{{ t.method.subtitle }}</p>
+      <div class="method__steps">
+        <h3 class="step-title">{{ t.method.steps.strategy }}</h3>
+        <h3 class="step-title">{{ t.method.steps.consistency }}</h3>
+        <h3 class="step-title">{{ t.method.steps.results }}</h3>
+      </div>
+    </div>
+
+    <div class="method__right">
+      <ul class="method-list">
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.assessment }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.nutritionPlan }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.shoppingList }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.supplement }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.followUp }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.adjustments }}</span>
+        </li>
+        <li class="method-list__item">
+          <div class="method-list__icon">
+            <img src="/assets/images/t-padrao-04.png" alt="Check">
+          </div>
+          <span class="method-list__text">{{ t.method.list.training }}</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h2 class="section-title section-title--md cta-section__title">
+      {{ t.cta.title }}
+    </h2>
+    <a href="#contact" class="btn">{{ t.cta.button }}</a>
+  </section>
+
+  <!-- Footer Image -->
+  <div class="footer-image">
+    <img src="/assets/images/footer-image.jpg" class="tablet-desktop" alt="Athlete">
+    <img src="/assets/images/footer-image-mob.png" class="only-mobile" alt="Athlete">
+  </div>
+
+  <!-- Results Section -->
+  <section class="results">
+    <div class="results__header">
+      <div class="results__header-icon tablet-desktop">
+        <img src="/assets/images/t-padrao-04.png" alt="Icon">
+      </div>
+      <div class="results__title-group">
+        <img src="/assets/images/t-padrao-04.png" class="only-mobile" alt="Icon">
+        <h2 class="section-title section-title--xl" style="color: var(--t04);">{{ t.results.title1 }}</h2>
+        <h2 class="section-title section-title--xl" style="color: var(--t01);">{{ t.results.title2 }}</h2>
+        <h2 class="section-title section-title--xl" style="color: var(--t03);">{{ t.results.title3 }}</h2>
+        <img src="/assets/images/t-padrao-04.png" class="only-mobile" alt="Icon">
+      </div>
+      <div class="results__header-icon tablet-desktop">
+        <img src="/assets/images/t-padrao-04.png" alt="Icon">
+      </div>
+    </div>
+
+    <p class="results__subtitle">
+      {{ t.results.subtitle }}
+    </p>
+
+    <div class="swiper-component">
+      <div class="results__gallery swiper" id="resultsSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/images/result-1.jpg" alt="Transformation Result 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/images/result-2.jpg" alt="Transformation Result 2">
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/images/result-3.jpg" alt="Transformation Result 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/images/result-4.jpg" alt="Transformation Result 4">
+          </div>
+        </div>
+      </div>
+      <img src="/assets/images/green-forward.svg" class="swiper-button-next" alt="Next">
+      <img src="/assets/images/green-back.svg" class="swiper-button-prev" alt="Previous">
+    </div>
+
+
+    <div class="results__cta">
+      <a href="#contact" class="btn btn--light">{{ t.results.cta }}</a>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="testimonials__title-group">
+      <h2 class="section-title--lg">{{ t.testimonials.title }}</h2>
+      <span class="script">{{ t.testimonials.titleScript }}</span>
+    </div>
+
+    <div class="testimonials__content swiper" id="testimonialsSwiper">
+      <div class="swiper-wrapper">
+        {% for testimonial in t.testimonials.items %}
+        <div class="testimonial swiper-slide">
+          <p class="testimonial__name">{{ testimonial.name }}</p>
+          <p class="testimonial__content">
+            {{ testimonial.content }}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <img src="/assets/images/arrow-left.svg" class="swiper-button-prev2" alt="Previous">
+    <img src="/assets/images/arrow-right.svg" class="swiper-button-next2" alt="Next">
+
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- Consultation Section -->
+  <section class="consultation">
+    <div class="consultation__content">
+      <h2 class="consultation__title">{{ t.consultation.title }}</h2>
+      <a href="#contact" class="btn">{{ t.consultation.cta }}</a>
+    </div>
+    <div class="consultation__image">
+      <img src="/assets/images/consultation-image.jpg" alt="Consultation">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="contact__title">{{ t.contact.title }}</h2>
+     <div class="contact__logo">
+      <img src="/assets/images/t-logo-06.png" alt="Tabata Logo">
+    </div>
+    <div class="wrap-footer">
+      <div class="left-footer">
+        <a href="https://maps.app.goo.gl/YbtpBDMeKyj5joy56" class="item-footer">
+          <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.83333 7.91667C5.2808 7.91667 4.7509 7.69717 4.36019 7.30647C3.96949 6.91577 3.75 6.38587 3.75 5.83333C3.75 5.2808 3.96949 4.7509 4.36019 4.36019C4.7509 3.96949 5.2808 3.75 5.83333 3.75C6.38587 3.75 6.91577 3.96949 7.30647 4.36019C7.69717 4.7509 7.91667 5.2808 7.91667 5.83333C7.91667 6.10692 7.86278 6.37783 7.75808 6.63059C7.65339 6.88335 7.49993 7.11302 7.30647 7.30647C7.11302 7.49993 6.88335 7.65339 6.63059 7.75808C6.37783 7.86278 6.10692 7.91667 5.83333 7.91667ZM5.83333 0C4.28624 0 2.80251 0.614581 1.70854 1.70854C0.614582 2.80251 0 4.28624 0 5.83333C0 10.2083 5.83333 16.6667 5.83333 16.6667C5.83333 16.6667 11.6667 10.2083 11.6667 5.83333C11.6667 4.28624 11.0521 2.80251 9.95812 1.70854C8.86416 0.614581 7.38043 0 5.83333 0Z" fill="#E5E5E5"/>
+          </svg>
+          <p>
+            {{ t.contact.address1.name }} <br/>
+            {{ t.contact.address1.street }}
+          </p>
+        </a>
+        <a href="https://maps.app.goo.gl/tVBjbF22vSuayLfW9" class="item-footer">
+          <svg width="12" height="17" viewBox="0 0 12 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.83333 7.91667C5.2808 7.91667 4.7509 7.69717 4.36019 7.30647C3.96949 6.91577 3.75 6.38587 3.75 5.83333C3.75 5.2808 3.96949 4.7509 4.36019 4.36019C4.7509 3.96949 5.2808 3.75 5.83333 3.75C6.38587 3.75 6.91577 3.96949 7.30647 4.36019C7.69717 4.7509 7.91667 5.2808 7.91667 5.83333C7.91667 6.10692 7.86278 6.37783 7.75808 6.63059C7.65339 6.88335 7.49993 7.11302 7.30647 7.30647C7.11302 7.49993 6.88335 7.65339 6.63059 7.75808C6.37783 7.86278 6.10692 7.91667 5.83333 7.91667ZM5.83333 0C4.28624 0 2.80251 0.614581 1.70854 1.70854C0.614582 2.80251 0 4.28624 0 5.83333C0 10.2083 5.83333 16.6667 5.83333 16.6667C5.83333 16.6667 11.6667 10.2083 11.6667 5.83333C11.6667 4.28624 11.0521 2.80251 9.95812 1.70854C8.86416 0.614581 7.38043 0 5.83333 0Z" fill="#E5E5E5"/>
+          </svg>
+          <p>
+            {{ t.contact.address2.name }}<br/>
+            {{ t.contact.address2.street }}
+          </p>
+        </a>
+      </div>
+      <div class="right-footer">
+        <a href="tel:+15083646300">
+          <p>
+            {{ t.contact.phone }}
+          </p>
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<script>
+  const swiper = new Swiper('#resultsSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 40,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      // Quando a largura da janela for >= 769px
+      769: {
+        enabled: true,
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+    },
+    // Desabilitar por padrão (mobile)
+    enabled: false,
+  });
+
+  const swiper2 = new Swiper('#testimonialsSwiper', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next2',
+      prevEl: '.swiper-button-prev2',
+    },
+  });
+</script>

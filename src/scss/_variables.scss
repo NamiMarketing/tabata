@@ -1,0 +1,27 @@
+// CSS Custom Properties
+:root {
+  // Colors from Figma design
+  --t01: #bdadff; // Purple/Lavender
+  --t02: #4f6ecc; // Blue
+  --t03: #80bde5; // Light Blue
+  --t04: #defca6; // Light Green
+  --t05: #404040; // Dark Gray
+  --t06: #e5e5e5; // Light Gray/Background
+
+  // Typography
+  --font-pragmatica: pragmatica-extended, sans-serif;
+  --font-viktorie: 'Viktorie', serif;
+
+  // Spacing
+  --container-padding: 100px;
+  --section-gap: 80px;
+
+  // Border radius
+  --radius-sm: 16px;
+  --radius-md: 30px;
+}
+
+// Breakpoints
+$breakpoint-mobile: 768px;
+$breakpoint-tablet: 1024px;
+$breakpoint-desktop: 1440px;
